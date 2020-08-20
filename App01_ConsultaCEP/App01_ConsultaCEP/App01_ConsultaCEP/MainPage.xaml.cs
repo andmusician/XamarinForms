@@ -6,8 +6,6 @@ using App01_ConsultaCEP.Service;
 
 namespace App01_ConsultaCEP
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
@@ -24,9 +22,16 @@ namespace App01_ConsultaCEP
 
             if (isValidCep(cep))
             {
-                Endereco end = ViaCEPService.BuscarEnderecoViaCep(cep);
+                try
+                {
+                    Endereco end = ViaCEPService.BuscarEnderecoViaCep(cep);
 
-                RESULTADO.Text = string.Format("Endereço: {0}, {1}, {2}", end.Logradouro, end.Localidade, end.UF);
+                    RESULTADO.Text = string.Format("Endereço: {0}, {1}, {2}", end.Logradouro, end.Localidade, end.UF);
+                }
+                catch (Exception ex)
+                {
+                    DisplayAlert("ERRO", ex.Message, "OK");
+                }              
             }            
         }
 
