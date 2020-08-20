@@ -4,12 +4,14 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App02_TipoPaginaXF.TipoPagina.Carousel.TipoPagina3">
+             x:Class="App02_TipoPaginaXF.TipoPagina.Carousel.TipoPagina3"
+             BackgroundColor="LightSkyBlue">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Tipo de Página" TextColor="Blue"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button ImageSource="play.png" BackgroundColor="Transparent"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
