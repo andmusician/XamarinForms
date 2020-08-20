@@ -132,4 +132,7 @@
       <Name>App01_ConsultaCEP</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoCorreios.png" />
+  </ItemGroup>
 </Project>
