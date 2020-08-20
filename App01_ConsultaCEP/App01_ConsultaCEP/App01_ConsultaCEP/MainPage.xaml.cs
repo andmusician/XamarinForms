@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
+using App01_ConsultaCEP.Service.Model;
+using App01_ConsultaCEP.Service;
 
 namespace App01_ConsultaCEP
 {
@@ -16,6 +14,17 @@ namespace App01_ConsultaCEP
         public MainPage()
         {
             InitializeComponent();
+
+            BOTAO.Clicked += BuscarCEP;
+        }
+
+        private void BuscarCEP(object sender, EventArgs e)
+        {
+            string cep = CEP.Text.Trim();
+
+            Endereco end = ViaCEPService.BuscarEnderecoViaCep(cep);
+
+            RESULTADO.Text = string.Format("Endereço: {0}, {1}, {2}" , end.Logradouro, end.Localidade, end.UF);
         }
     }
 }

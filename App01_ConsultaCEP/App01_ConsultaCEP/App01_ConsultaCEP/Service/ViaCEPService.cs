@@ -1,9 +1,6 @@
 ﻿using App01_ConsultaCEP.Service.Model;
-using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Text;
 using Newtonsoft.Json;
+using System.Net;
 
 namespace App01_ConsultaCEP.Service
 {

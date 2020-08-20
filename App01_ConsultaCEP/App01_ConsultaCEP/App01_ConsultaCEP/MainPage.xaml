@@ -7,13 +7,13 @@
              x:Class="App01_ConsultaCEP.MainPage">
 
     <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
-        <Image Source="LogoCorreios.png"/>
+        <Image Source="LogoCorreios.png" x:Name="LOGO"/>
 
-        <Entry Placeholder="Digite o Cep" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF"/>
+        <Entry Placeholder="Digite o Cep" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="CEP"/>
 
-        <Button Text="BUSCAR CEP" TextColor="#FFFFFF" BackgroundColor="#00416B"/>
+        <Button Text="BUSCAR CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="BOTAO"/>
 
-        <Label Text="" 
+        <Label Text="" x:Name="RESULTADO"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>

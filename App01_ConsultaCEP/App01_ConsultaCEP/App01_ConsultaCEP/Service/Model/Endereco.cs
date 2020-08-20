@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace App01_ConsultaCEP.Service.Model
+﻿namespace App01_ConsultaCEP.Service.Model
 {
     public class Endereco
     {
