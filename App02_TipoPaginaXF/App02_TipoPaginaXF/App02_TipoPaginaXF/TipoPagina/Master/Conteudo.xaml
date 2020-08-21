@@ -4,22 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App02_TipoPaginaXF.TipoPagina.Navigation.Page1"
-             Title="Titulo da Navigation">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Pesquisa"/>
-        <ToolbarItem Text="Detalhes"/>
-        <ToolbarItem Text="Ordenar"/>
-    </ContentPage.ToolbarItems>
-    
+             x:Class="App02_TipoPaginaXF.TipoPagina.Master.Conteudo"
+             Title="Conteudo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Eu sou uma content page"
+            <Label Text="Eu sou o conteudo"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Ir para Pagina 2" Clicked="MudarParaPagina2"/>
-            <Button Text="Chamar Modal" Clicked="ChamarModal"/>
-            <Button Text="Chamar Master" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
