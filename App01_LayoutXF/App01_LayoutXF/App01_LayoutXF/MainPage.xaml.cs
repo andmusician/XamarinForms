@@ -17,5 +17,30 @@ namespace App01_LayoutXF
         {
             InitializeComponent();
         }
+
+        private void GoPaginaStack(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Stack.StackPage());
+        }
+
+        private void GoPaginaGrid(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Grid.GridPage());
+        }
+
+        private void GoPaginaAbsolute(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Absolute.AbsolutePage());
+        }
+
+        private void GoPaginaRelative(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Relative.RelativePage());
+        }
+
+        private void GoPaginaScroll(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Scroll.ScrollPage());
+        }
     }
 }
