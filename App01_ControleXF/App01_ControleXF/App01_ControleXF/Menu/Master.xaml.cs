@@ -26,5 +26,10 @@ namespace App01_ControleXF.Menu
         {
             Detail = new Controles.ProgressBar();
         }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Detail = new Controles.BoxView();
+        }
     }
 }
