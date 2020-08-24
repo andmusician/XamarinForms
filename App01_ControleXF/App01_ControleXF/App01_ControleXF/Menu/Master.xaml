@@ -10,6 +10,7 @@
         <ContentPage Title="Menu">
             <StackLayout>
                 <Button Text="Activity Indicator" Clicked="Button_Clicked"/>
+                <Button Text="Progress Bar" Clicked="Button_Clicked_1"/>
             </StackLayout>
             
         </ContentPage>

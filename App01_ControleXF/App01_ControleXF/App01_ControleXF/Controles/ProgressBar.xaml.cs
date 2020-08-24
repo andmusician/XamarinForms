@@ -7,24 +7,21 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App01_ControleXF.Menu
+namespace App01_ControleXF.Controles
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Master : MasterDetailPage
+    public partial class ProgressBar : ContentPage
     {
-        public Master()
+        public ProgressBar()
         {
             InitializeComponent();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Detail = new Controles.ActivityIndicatorPage();
-        }
-
-        private void Button_Clicked_1(object sender, EventArgs e)
-        {
-            Detail = new Controles.ProgressBar();
+            Bar1.Progress = 1;
+            Bar2.ProgressTo(1, 5000, Easing.Linear);
+            Bar3.ProgressTo(1, 5000, Easing.SpringIn);
         }
     }
 }
