@@ -36,5 +36,10 @@ namespace App01_ControleXF.Menu
         {
             Detail = new Controles.Label();
         }
+
+        private void Button_Clicked_4(object sender, EventArgs e)
+        {
+            Detail = new Controles.Button();
+        }
     }
 }
