@@ -12,6 +12,7 @@
                 <Button Text="Activity Indicator" Clicked="Button_Clicked"/>
                 <Button Text="Progress Bar" Clicked="Button_Clicked_1"/>
                 <Button Text="Box View" Clicked="Button_Clicked_2"/>
+                <Button Text="Label" Clicked="Button_Clicked_3"/>
             </StackLayout>
             
         </ContentPage>
