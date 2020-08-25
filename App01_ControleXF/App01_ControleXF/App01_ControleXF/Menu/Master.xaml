@@ -14,6 +14,7 @@
                 <Button Text="Box View" Clicked="Button_Clicked_2"/>
                 <Button Text="Label" Clicked="Button_Clicked_3"/>
                 <Button Text="Button" Clicked="Button_Clicked_4"/>
+                <Button Text="Entry Editor" Clicked="Button_Clicked_5"/>
             </StackLayout>
             
         </ContentPage>
