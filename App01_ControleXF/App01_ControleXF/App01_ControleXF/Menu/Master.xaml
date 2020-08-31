@@ -16,6 +16,7 @@
                 <Button Text="Button" Clicked="Button_Clicked_4"/>
                 <Button Text="Entry Editor" Clicked="Button_Clicked_5"/>
                 <Button Text="Date Picker" Clicked="Button_Clicked_6"/>
+                <Button Text="Time Picker" Clicked="Button_Clicked_7"/>
             </StackLayout>
             
         </ContentPage>
