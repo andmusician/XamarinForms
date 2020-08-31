@@ -56,5 +56,10 @@ namespace App01_ControleXF.Menu
         {
             Detail = new Controles.TimePicker();
         }
+
+        private void Button_Clicked_8(object sender, EventArgs e)
+        {
+            Detail = new Controles.PickerPage();
+        }
     }
 }
