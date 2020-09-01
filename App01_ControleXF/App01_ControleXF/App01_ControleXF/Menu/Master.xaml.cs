@@ -71,5 +71,10 @@ namespace App01_ControleXF.Menu
         {
             Detail = new Controles.SliderStepperPage();
         }
+
+        private void Button_Clicked_11(object sender, EventArgs e)
+        {
+            Detail = new Controles.SwitchPage();
+        }
     }
 }
