@@ -19,6 +19,7 @@
                 <Button Text="Time Picker" Clicked="Button_Clicked_7"/>
                 <Button Text="Picker" Clicked="Button_Clicked_8"/>
                 <Button Text="Search Bar" Clicked="Button_Clicked_9"/>
+                <Button Text="Slider Stepper" Clicked="Button_Clicked_10"/>
             </StackLayout>
             
         </ContentPage>
