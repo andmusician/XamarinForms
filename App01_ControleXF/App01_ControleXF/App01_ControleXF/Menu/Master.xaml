@@ -11,6 +11,7 @@
             <StackLayout>
                 <Button Text="Image" Clicked="Button_Clicked_12"/>
                 <Button Text="List View" Clicked="Button_Clicked_13"/>
+                <Button Text="Table View" Clicked="Button_Clicked_14"/>
                 <Button Text="Activity Indicator" Clicked="Button_Clicked"/>
                 <Button Text="Progress Bar" Clicked="Button_Clicked_1"/>
                 <Button Text="Box View" Clicked="Button_Clicked_2"/>

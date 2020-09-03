@@ -86,5 +86,10 @@ namespace App01_ControleXF.Menu
         {
             Detail = new Controles.ListViewPage();
         }
+
+        private void Button_Clicked_14(object sender, EventArgs e)
+        {
+            Detail = new Controles.TableViewPage();
+        }
     }
 }
