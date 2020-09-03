@@ -5,6 +5,8 @@
              x:Class="App01_ControleXF.Controles.ListViewPage">
     <ContentPage.Content>
         <StackLayout>
+            
+            <!--IMPORTANTE ESTUDAR-->
             <ListView>
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type mod:Pessoa}">

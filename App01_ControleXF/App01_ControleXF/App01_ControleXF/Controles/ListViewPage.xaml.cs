@@ -16,6 +16,8 @@ namespace App01_ControleXF.Controles
         public ListViewPage()
         {
             InitializeComponent();
+            
+            //IMPORTANTE ESTUDAR
 
             List<Pessoa> lista = new List<Pessoa>();
             lista.Add(new Pessoa { Nome = "José", Idade = "20" });
