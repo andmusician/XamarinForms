@@ -9,6 +9,10 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <StackLayout>
+                <Button Text="Image" Clicked="Button_Clicked_12"/>
+                <Button Text="List View" Clicked="Button_Clicked_13"/>
+                <Button Text="Table View" Clicked="Button_Clicked_14"/>
+                <Button Text="Web View" Clicked="Button_Clicked_15"/>
                 <Button Text="Activity Indicator" Clicked="Button_Clicked"/>
                 <Button Text="Progress Bar" Clicked="Button_Clicked_1"/>
                 <Button Text="Box View" Clicked="Button_Clicked_2"/>
@@ -20,7 +24,7 @@
                 <Button Text="Picker" Clicked="Button_Clicked_8"/>
                 <Button Text="Search Bar" Clicked="Button_Clicked_9"/>
                 <Button Text="Slider Stepper" Clicked="Button_Clicked_10"/>
-                <Button Text="Switch" Clicked="Button_Clicked_11"/>
+                <Button Text="Switch" Clicked="Button_Clicked_11"/>                
             </StackLayout>
             
         </ContentPage>

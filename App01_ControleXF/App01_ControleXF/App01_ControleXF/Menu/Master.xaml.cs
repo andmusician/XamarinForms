@@ -76,5 +76,25 @@ namespace App01_ControleXF.Menu
         {
             Detail = new Controles.SwitchPage();
         }
+
+        private void Button_Clicked_12(object sender, EventArgs e)
+        {
+            Detail = new Controles.ImagePage();
+        }
+
+        private void Button_Clicked_13(object sender, EventArgs e)
+        {
+            Detail = new Controles.ListViewPage();
+        }
+
+        private void Button_Clicked_14(object sender, EventArgs e)
+        {
+            Detail = new Controles.TableViewPage();
+        }
+
+        private void Button_Clicked_15(object sender, EventArgs e)
+        {
+            Detail = new Controles.WebViewPage();
+        }
     }
 }
