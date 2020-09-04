@@ -91,5 +91,10 @@ namespace App01_ControleXF.Menu
         {
             Detail = new Controles.TableViewPage();
         }
+
+        private void Button_Clicked_15(object sender, EventArgs e)
+        {
+            Detail = new Controles.WebViewPage();
+        }
     }
 }
